@@ -28,8 +28,8 @@ class EmailsController < ApplicationController
 
     respond_to do |format|
       if @email.save
-        format.html { redirect_to Thanks_path, notice: 'Email was successfully created.' }
-        format.json { render :show, status: :created, location: Thanks_path }
+        format.html { redirect_to thanks_path, notice: 'Email was successfully created.' }
+        format.json { render :show, status: :created, location: thanks_path }
       else
         format.html { render :new }
         format.json { render json: @email.errors, status: :unprocessable_entity }

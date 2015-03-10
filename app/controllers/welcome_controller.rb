@@ -2,9 +2,9 @@ class WelcomeController < ApplicationController
   def index
   end
   
-  def Email
+  def email
   end
 
-  def Thanks
+  def thanks
   end
 end

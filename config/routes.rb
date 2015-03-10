@@ -5,9 +5,9 @@ Rails.application.routes.draw do
 
   root "welcome#index"
 
-  get 'Email' => 'welcome#Email'
+  get 'email' => 'welcome#email'
 
-  get 'Thanks' => 'welcome#Thanks'
+  get 'thanks' => 'welcome#thanks'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
