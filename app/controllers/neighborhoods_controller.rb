@@ -28,7 +28,7 @@ class NeighborhoodsController < ApplicationController
 
     respond_to do |format|
       if @neighborhood.save
-        format.html { redirect_to @neighborhood, notice: 'Neighborhood was successfully created.' }
+        format.html { redirect_to new_email_path, notice: 'Neighborhood was successfully created.' }
         format.json { render :show, status: :created, location: @neighborhood }
       else
         format.html { render :new }
