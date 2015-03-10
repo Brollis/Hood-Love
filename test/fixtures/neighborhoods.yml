@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  favorite_hood: MyString
+  city_name: MyString
+  moving_to_city_name: MyString
+
+two:
+  favorite_hood: MyString
+  city_name: MyString
+  moving_to_city_name: MyString

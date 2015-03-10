@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Favorite hood:</strong>
+  <%= @neighborhood.favorite_hood %>
+</p>
+
+<p>
+  <strong>City name:</strong>
+  <%= @neighborhood.city_name %>
+</p>
+
+<p>
+  <strong>Moving to city name:</strong>
+  <%= @neighborhood.moving_to_city_name %>
+</p>
+
+<%= link_to 'Edit', edit_neighborhood_path(@neighborhood) %> |
+<%= link_to 'Back', neighborhoods_path %>

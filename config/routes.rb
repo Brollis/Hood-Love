@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :emails
+
+  resources :neighborhoods
+
   root "welcome#index"
 
   get 'Email' => 'welcome#Email'
