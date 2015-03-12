@@ -6,5 +6,7 @@ class WelcomeController < ApplicationController
   end
 
   def thanks
+  	@email = Email.last
+  	
   end
 end
